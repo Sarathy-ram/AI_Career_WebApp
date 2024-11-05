@@ -37,7 +37,7 @@
 
 𝐂𝐥𝐨𝐧𝐞 𝐭𝐡𝐞 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲:
 
-  git clone https://github.com/yourusername/CareerPathPredictor.git
+  git clone https://github.com/Sarathy-ram/AI_Career_WebApp.git
   cd CareerPathPredictor
 
 𝐒𝐞𝐭 𝐮𝐩 𝐭𝐡𝐞 𝐯𝐢𝐫𝐭𝐮𝐚𝐥 𝐞𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭:
