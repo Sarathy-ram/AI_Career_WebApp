@@ -8,32 +8,7 @@ session_start();
 <?php include 'header.php'; ?>
 <link rel="stylesheet" href="mycss/course.css">
 <script src="myjs/course.js"></script>
-<style>
-    .container-0{
-    width: 1000px;
-    height: 200px;
-    flex-shrink: 0;
-    border-radius: 40px;
-    border: 0.2px solid #000;
-    background: #FFF;
-    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
-    margin-left: 220px;
-    margin-top: 40px;
-}
-.container-0:hover{
-    transform: scale(1.005);
-    transition: all 0.2s ease-out;
-	border: 0.2px solid #0090f9;
-}
-@media (max-width: 768px) {
-.container-0 {
-    width: 90%; 
-    margin-left: 5%;
-    height: auto;
-    margin-top: 20px; 
-    }
-}
-</style>
+
 <body>
 	<h1>HOME / AFTER 10TH JOBS</h1>
 	<h2 style="margin-left: 500px;">AFTER 10TH JOBS</h2>

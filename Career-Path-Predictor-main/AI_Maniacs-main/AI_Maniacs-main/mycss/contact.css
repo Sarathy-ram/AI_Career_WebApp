@@ -1,0 +1,183 @@
+/* Contact Page Glassmorphism Styling */
+
+body {
+    background-color: #f8fafc;
+    /* Match main and course pages */
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #1e293b;
+}
+
+/* Hero Area */
+.hero-area {
+    position: relative;
+    padding: 100px 0 60px;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    /* Offset for fixed header */
+    border-bottom: 5px solid #60a5fa;
+}
+
+.hero-area .hero-area-tree {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+    display: inline-flex;
+    gap: 15px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.hero-area .hero-area-tree li a {
+    color: white;
+    text-decoration: underline;
+}
+
+.hero-area h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Contact Section Container */
+#contact.section {
+    padding: 60px 0;
+}
+
+/* Glass Form Card */
+.contact-form {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    border-top: 4px solid #3b82f6;
+    /* Colorful top border to match main cards */
+}
+
+.contact-form h4 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #0f172a;
+    font-weight: 600;
+}
+
+/* Form Inputs */
+.contact-form .input {
+    width: 100%;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.contact-form .input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.contact-form textarea.input {
+    min-height: 150px;
+    resize: vertical;
+}
+
+/* Gradient Submit Button */
+.main-button {
+    background: linear-gradient(135deg, #10b981, #059669);
+    /* Similar to Course button */
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.main-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(16, 185, 129, 0.4);
+}
+
+/* Contact Information Glass Card */
+.col-md-5.col-md-offset-1 {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #8b5cf6;
+    /* Vibrant purple top border */
+}
+
+.col-md-5.col-md-offset-1 h4 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    font-size: 18px;
+    color: #475569;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details li i {
+    color: #3b82f6;
+    font-size: 24px;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+}
+
+/* Clean Footer Styling */
+#footer {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    padding: 40px 0 20px;
+    margin-top: 40px;
+}
+
+.footer-logo .logo {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: right;
+}
+
+/* Utility / Preloader override */
+#preloader {
+    display: none;
+    /* Hide broken preloader script if there's no CSS for it */
+}

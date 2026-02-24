@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="mycss/header.css">
 <script src="myjs/search.js"></script>
     <!-- Header -->
-    <header id="header" class="transparent-nav" style="position: fixed;background-color: #0090f9; top: 0;">
+    <header id="header" class="transparent-nav" style="position: fixed; top: 0;">
         <div class="container">
             <div class="navbar-header">
                 <div class="navbar-brand">
@@ -84,59 +84,5 @@
         </div>
     </header>
 </body>
-<style>
-        .display-bar{
-            display: inline;
-        }
-        .display-bar ul {
-            list-style: none;
-            padding-top: 10px;
-            
-        }
-        .display-bar ul li {
-            float: left;
-            padding: 0;
-            text-align: left;
-        }
-        .display-bar  ul li a {
-            padding: 10px;
-            font-size: 18px;
-            color: white;
-            text-decoration: none;
-            transition: 0.2s;
-        }
-        .display-bar ul li a:hover {
-            background-color: #fff;
-            color: #0090f9;
-            border-radius: 10px;
-        }
-        .career .dropdown {
-        display: none;
-        position: absolute;
-        background-color: #fff;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        border-radius: 10px;
-        }
 
-        .career:hover .dropdown {
-        display: block;
-        border-radius: 10px;
-        }
-
-        .career .dropdown a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        border-radius: 10px;
-        }
-
-        .career .dropdown a:hover {
-        background-color: #0090f9;
-        color: white;
-        border-radius: 10px;
-        }
-</style>
 </html>

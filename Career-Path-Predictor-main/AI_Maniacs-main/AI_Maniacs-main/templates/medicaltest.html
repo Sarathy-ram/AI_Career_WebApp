@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Career Predictor</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600,800" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: radial-gradient(circle at top left, #eff6ff, #ffffff);
+            color: #334155;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 600px;
+            border-top: 5px solid #2563eb;
+        }
+
+        .wide-card {
+            max-width: 800px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 30px;
+            margin-top: 0;
+        }
+
+        h2,
+        h3 {
+            text-align: center;
+            font-weight: 600;
+            color: #334155;
+            margin-top: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .input-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #475569;
+        }
+
+        input[type="number"],
+        input[type="text"] {
+            padding: 12px 15px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            background: #f8fafc;
+            font-size: 1rem;
+            transition: all 0.2s;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="number"]:focus,
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+            background: #fff;
+        }
+
+        button[type="submit"],
+        .btn {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 14px 24px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+            margin-top: 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"]:hover,
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3);
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p,
+        li {
+            color: #475569;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        ul {
+            padding-left: 20px;
+            text-align: left;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="glass-card wide-card">
+        <h1>Medical Career Predictor</h1>
+        <form method="POST" action="/">
+            <div class="input-grid">
+                <div class="input-group"><label>Do you write NEET?</label><input type="number" name="input1"></div>
+                <div class="input-group"><label>Do you score more than 500?</label><input type="number" name="input2">
+                </div>
+                <div class="input-group"><label>Do you score less than 500 & more than 380?</label><input type="number"
+                        name="input3"></div>
+                <div class="input-group"><label>Do you got pass mark in NEET?</label><input type="number" name="input4">
+                </div>
+                <div class="input-group"><label>Do you like to study about teeth?</label><input type="number"
+                        name="input5"></div>
+                <div class="input-group"><label>Do you like natural medicine?</label><input type="number" name="input6">
+                </div>
+                <div class="input-group"><label>Do you like surgery?</label><input type="number" name="input7"></div>
+                <div class="input-group"><label>Do you like medicine like tablets, etc.?</label><input type="number"
+                        name="input8"></div>
+                <div class="input-group"><label>Do you like tech?</label><input type="number" name="input9"></div>
+                <div class="input-group"><label>Do you like physical exercise?</label><input type="number"
+                        name="input10"></div>
+                <div class="input-group"><label>Do you like pets and animals?</label><input type="number"
+                        name="input11"></div>
+                <div class="input-group"><label>Do you like to study about eyes?</label><input type="number"
+                        name="input12"></div>
+                <div class="input-group"><label>Do you like to serve people?</label><input type="number" name="input13">
+                </div>
+                <div class="input-group"><label>Do you like to read people's minds?</label><input type="number"
+                        name="input14"></div>
+            </div>
+            <button type="submit">Analyze Potential</button>
+        </form>
+    </div>
+</body>
+
+</html>

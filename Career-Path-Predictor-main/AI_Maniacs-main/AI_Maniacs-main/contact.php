@@ -7,6 +7,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'header.php'?>
+<link rel="stylesheet" href="mycss/contact.css">
 		<!-- Hero-area -->
 		<div class="hero-area section">
 
@@ -59,7 +60,7 @@ session_start();
 						<h4>Contact Information</h4>
 						<ul class="contact-details">
 							<li><i class="fa fa-envelope"></i>aimaniacs@gmail.com</li>
-							<li><i class="fa fa-phone"></i>8148488564</li>
+							<li><i class="fa fa-phone"></i>1234567890</li>
 							<li><i class="fa fa-map-marker"></i>BIT sathyamagalam</li>
 						</ul>
 

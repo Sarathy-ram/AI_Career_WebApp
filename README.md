@@ -57,7 +57,41 @@
 
     Edit the config.py file to include your MySQL database credentials.
 
-𝐅𝐮𝐭𝐮𝐫𝐞 𝐄𝐧𝐡𝐚𝐧𝐜𝐞𝐦𝐞𝐧𝐭𝐬
+�𝐮𝐧 𝐭𝐡𝐞 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧:
+
+  1. Start the PHP development server for the frontend interface:
+     ```bash
+     cd Career-Path-Predictor-main/AI_Maniacs-main/AI_Maniacs-main
+     php -S localhost:8000
+     ```
+  
+  2. Open a new terminal window, activate your virtual environment, and start the **Test App** backend:
+     ```bash
+     cd Career-Path-Predictor-main/AI_Maniacs-main/AI_Maniacs-main
+     python testapp.py
+     ```
+     
+  3. Open a new terminal window, activate your virtual environment, and start the **Medical Predictor** backend:
+     ```bash
+     cd Career-Path-Predictor-main/AI_Maniacs-main/AI_Maniacs-main
+     python medicalapp.py
+     ```
+
+  4. Open a new terminal window, activate your virtual environment, and start the **10th Grade Test** backend:
+     ```bash
+     cd Career-Path-Predictor-main/AI_Maniacs-main/AI_Maniacs-main
+     python 10thapp.py
+     ```
+
+  5. Open a new terminal window, activate your virtual environment, and start the **12th Grade Test** backend:
+     ```bash
+     cd Career-Path-Predictor-main/AI_Maniacs-main/AI_Maniacs-main
+     python 12thapp.py
+     ```
+
+  Once all five servers are running, open your web browser and navigate to `http://localhost:8000/main.php`.
+
+�𝐅𝐮𝐭𝐮𝐫𝐞 𝐄𝐧𝐡𝐚𝐧𝐜𝐞𝐦𝐞𝐧𝐭𝐬
 
 
   > Integration with external APIs to gather real-time industry data.

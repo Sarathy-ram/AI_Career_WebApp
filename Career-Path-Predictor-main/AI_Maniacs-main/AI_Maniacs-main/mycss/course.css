@@ -1,0 +1,167 @@
+body {
+    padding-top: 100px;
+    font-family: 'Inter', sans-serif;
+    color: #334155;
+}
+
+h1 {
+    font-size: 14px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0f172a;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-left: 0 !important;
+}
+
+#book-img1,
+#book-img2 {
+    display: none;
+    /* Hide the old unnecessary clip arts for a cleaner look */
+}
+
+/* Override inline styles for containers to give them a modern look */
+.container-0,
+.container1 {
+    width: 800px !important;
+    max-width: 90%;
+    height: auto !important;
+    min-height: 120px;
+    margin: 20px auto !important;
+    padding: 25px 40px;
+    background: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04) !important;
+    border-radius: 16px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-0:hover,
+.container1:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 12px 32px rgba(37, 99, 235, 0.1) !important;
+    border: 1px solid rgba(37, 99, 235, 0.2) !important;
+}
+
+.container-0 h3,
+.container1 h3 {
+    margin: 0 0 10px 0 !important;
+    font-size: 1.4rem;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.container-0 h4,
+.container1 h4 {
+    margin: 0 0 15px 0 !important;
+    width: 100% !important;
+    font-size: 1rem;
+    color: #475569;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container-0 h5,
+.container1 h5 {
+    margin: 0 !important;
+    font-size: 0.9rem;
+    color: #2563eb;
+    font-weight: 600;
+    padding: 6px 12px;
+    background: rgba(37, 99, 235, 0.1);
+    border-radius: 20px;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+/* Styling for the Course / Book Links */
+.course-book1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.course-book {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+button.course,
+button.book {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+button.course {
+    background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%);
+    color: white;
+}
+
+button.course:hover {
+    box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
+    transform: translateY(-2px);
+}
+
+button.book {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+}
+
+button.book:hover {
+    box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Add colorful top borders to course containers to make it vibrant */
+.container-0:nth-child(4n+1) {
+    border-left: 5px solid #ef4444 !important;
+}
+
+.container-0:nth-child(4n+2) {
+    border-left: 5px solid #f59e0b !important;
+}
+
+.container-0:nth-child(4n+3) {
+    border-left: 5px solid #10b981 !important;
+}
+
+.container-0:nth-child(4n+4) {
+    border-left: 5px solid #3b82f6 !important;
+}
+
+.container1:nth-child(4n+1) {
+    border-left: 5px solid #ef4444 !important;
+}
+
+.container1:nth-child(4n+2) {
+    border-left: 5px solid #f59e0b !important;
+}
+
+.container1:nth-child(4n+3) {
+    border-left: 5px solid #10b981 !important;
+}
+
+.container1:nth-child(4n+4) {
+    border-left: 5px solid #3b82f6 !important;
+}

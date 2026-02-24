@@ -1,14 +1,6 @@
 <?php
 // Initialize the session
 session_start();
-function checkLogin() {
-    if (!isset($_SESSION['username'])) {
-        header("Location: login.php");
-        exit();
-    }
-}
-
-checkLogin();
 ?>
 
 <!DOCTYPE html>
